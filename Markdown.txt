@@ -1,0 +1,79 @@
+---------------------------------- aula dia 14/08 -----------------------------------------------------------------
+
+- Markdown
+
+markdown é o tipo do documento.
+ \section {introdução}
+ google: markdown cheat sheet
+
+ tags: value 
+ linguagem --> YAML
+
+ para criar paragrafo faz duas quebras de linha
+
+ Para mudar o estilo do texto: 
+ **negrito**     *italico*    --riscado-- (pode fazer combinações)  ***--negrito italico riscado--***
+
+ > isso é um aviso (cria uma caixa)
+
+ para fazer a clonagem de um repositorio use o `git clone` e tudo funciona
+
+ ou a sequencia
+
+ ```shell  (identificador associado com a linguagem highlighter)
+ codigo
+
+ ```
+```c
+#include <stdio.h>
+int main(void){
+	print("hello, world!\n");
+}
+```
+
+-criando links
+Para mais informações clique [aqui](http://www.google.com).
+
+-listas
+ 
+ - item 1
+ - item 2
+ - item 3
+ 	- su 1
+ 	- sub 2
+ 	- sub 3
+ * item 4
+ * item 5
+
+ numeradas:
+
+ 1. jose
+ 2. maria
+ 3. joao
+
+
+ 1. Jose
+    - subitem
+      1. subsub
+
+
+listas de tarefa:
+- [ ] estudar ingles
+- [ ] estudar musica
+- [x] estudar programação
+
+inserir imagens:
+![foto](url da imagem)
+formatos aceitos: png jpeg gif (para fotos capturadas mas para mostrar diagramas não use esses formatos)
+SVG (quem desenha é o browser)
+
+
+É possível intercalar HTML com Markdown:
+<u1>
+<li> alo </li>
+<li> maria </li>
+</u1>
+
+----------------------------------- Para próxima aula ---------------------------------------------------------
+
+Fazer o blog e já por alguma postagem
